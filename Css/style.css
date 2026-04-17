@@ -162,6 +162,28 @@ body {
 
 }
 
+#cont_arriba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30pt 0pt 0pt 0pt;
+    gap: 35pt;
+}
+
+#cards{
+    width: 25vw;
+    height: 40vh;
+    background-color: rgb(255, 92, 0);
+    padding: 0pt 0pt 15pt 0pt;
+    border-radius: 5%;
+    box-shadow: black 0 0 10px;
+}
+
+.imagenes{
+    padding:10pt 0pt 0pt 0pt;
+    border-radius: 10%;
+}
+
 .main a{
     margin-left: 50px;
     margin-top: 20px;
