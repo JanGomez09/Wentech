@@ -8,7 +8,8 @@
 header {
 
     height: 100px;
-    background-color: rgb(23, 35, 84);
+    background-color: rgb(163, 84, 27);
+    
     box-shadow: black 0px 10px 20px -10px;
 }
 
@@ -16,9 +17,9 @@ header {
 .header-content {
     display: flex;
     align-items: left;
-    justify-content: right;
+    justify-content: left;
 
-    background-color: rgb(138, 202, 222);
+    background-color: rgb(227, 119, 43);
     height: 100%;
     width: 95%;
 
@@ -39,18 +40,18 @@ header {
 .logo-container {
     display: flex;
     align-items: center;
-    margin-right: 40px;
-    gap: 20px;
+    width: 100%;
+    gap: 50px;
 }
 
 
 body {
-    background-color: rgb(228, 228, 228);
+    background-image: url("bg.jpeg");
     background-repeat: repeat;
 }
 
 .main-content {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(53, 53, 53);
 
     display: flex;
     align-items: left;
@@ -76,12 +77,28 @@ body {
 
 .search-button:hover{
     background:white;
-    color:rgb(138, 202, 222);
+    color:rgb(227, 119, 43);
+}
+
+.search-input{
+    width:100%;
+    padding:10px;
+    border-radius:25px;
+    border:3px solid #ffffff;
+    outline:none;
+    background:transparent;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.search-input::placeholder{
+     color:white;
 }
 
 .bienvenido{
 
-    background:rgb(123, 183, 201);
+    background:rgb(227, 119, 43);
 
     display:inline-block;
 
@@ -106,6 +123,10 @@ body {
 
     gap: 20px;
 
+    font-size: 2.5em;
+    color: white;
+    font-family: initial;
+    font-weight: bolder ;
 
     display: flex;
     grid-template-columns: repeat(4, 1fr);
@@ -116,10 +137,10 @@ body {
 }
 
 .main {
-    background:rgb(138, 202, 222);
+    background:rgb(227, 119, 43);
     font-size:30px;
     font-style:bold;
-    margin-top:100px;
+    margin-top:140px;
     margin-bottom: 75px;
     margin-left: -590px;
     width: 77%;
@@ -128,7 +149,7 @@ body {
     border-radius: 30px;
     
     max-width: 77%;
-    box-shadow: black 0px 10px 20px -10px;
+
 }
 
 .main p {
@@ -153,7 +174,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 25px;
-    background: rgb(255, 255, 255);
+    background: rgb(53, 53, 53);
     margin-top: 20px;
 
     align-items: center;
@@ -232,7 +253,7 @@ body {
 footer {
     box-shadow: black 0px 10px 20px -10px;
     height: 100px;
-    background-color: rgb(23, 35, 84);
+    background-color: rgb(163, 84, 27);;
 
 }
 
@@ -245,7 +266,7 @@ footer {
 
     font-weight:bold;
 
-    background-color: rgb(138, 202, 222);
+    background-color:rgb(227, 119, 43);
     
     box-shadow: black 0px 10px 20px -10px;
     height: 100%;
