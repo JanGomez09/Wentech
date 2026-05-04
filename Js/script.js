@@ -12,7 +12,7 @@ function mainGO() {
 
 
 function rulesGO() {
-    location.href='OPERIS.html'
+    location.href='productos.html'
 }
 
 
